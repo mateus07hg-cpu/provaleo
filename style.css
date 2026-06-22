@@ -315,3 +315,7 @@ thead th {
   .dashboard { padding: 20px 20px 0; }
   main       { grid-template-columns: 1fr; padding: 16px 20px 40px; }
 }
+
+.estoque-critico {
+  background-color: rgba(248, 113, 113, 0.15);
+}

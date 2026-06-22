@@ -37,13 +37,6 @@ Permite remover materiais do sistema.
 ### Dashboard
 Apresenta informações gerais sobre os materiais cadastrados.
 
-## Regras de Negócio
+# Link do Projeto
 
-### Validação de Retirada
-
-A função:
-
-```javascript
-function validarRetirada(estoqueAtual, quantidadeRetirada)
-
-Projeto atualizado em 16/06/2026.git status
+https://github.com/mateus07hg-cpu/provaleo

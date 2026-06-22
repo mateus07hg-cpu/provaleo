@@ -50,7 +50,7 @@ function renderTabela() {
   }
 
   listaMateriais.innerHTML = filtrados.map(m => `
-    <tr data-id="${m.id}">
+    <tr data-id="${m.id}" class="${Number(m.quantidade) < 10 ? 'estoque-critico' : ''}">
       <td>${m.nome}</td>
       <td><span class="qty-badge">${m.quantidade}</span></td>
       <td class="actions">
